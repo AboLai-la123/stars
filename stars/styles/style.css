@@ -1,0 +1,99 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    outline:none;
+    box-sizing: border-box;
+    color:white;
+}
+
+body{
+    background-color:#000;
+}
+
+main{
+    margin:auto;
+    width:80%;
+    transition-duration: .2s;
+    max-width:600px;
+    background-color:white;
+    margin-top:40px;
+    background-color:#333;
+    border-radius:10px;
+    padding:30px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+
+body{
+    background-image: url("../images/space.jpg");
+    background-size:100%;
+}
+
+img{
+    margin:auto;
+    display:block;
+    width:60%;
+}
+
+hr{
+    margin:auto;
+    margin-block:30px;
+}
+
+.header{
+    font-size:15pt;
+    text-align:right;
+}
+
+
+.stars{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap:2.7%;
+    direction: rtl;
+}
+.stars > div{
+    background-color:#444;
+    border:1px solid #aaa;
+    border-radius:10px;
+    height:150px;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.stars > div > a{
+    display: grid;
+    grid-template-rows: 100px 50px;
+}
+
+.stars > div > a > p{
+    background-color:#555;
+    display: flex;
+    align-items: center;
+    padding-right:10px;
+}
+
+.image-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.stars-container{
+    transition-duration: .2s;
+}
+
+
+.star-details{
+    display:none;
+    transition-duration: .2s;
+    margin-top:30px;
+}
